@@ -1,0 +1,209 @@
+/*by Jamie O'Beirne
+jamieobeirne123@gmail.com</p>
+11 February 2021</p>*/
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    background-color: black;
+    height:70px;
+
+}
+
+.footer{
+    background-color:gold;
+    height:110px;
+}
+
+.homeTitleMessage{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:700;
+    size:34px;
+    line-height:51.71px;
+}
+
+.toggle{
+   font-size: 20px;
+   color:grey;
+   text-decoration: underline;
+   position:absolute;
+   top:90px;
+   right:120px
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card-number{
+    float:left;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a.card-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 140px -5px 250px -5px}
+  
+
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/*Toggle swithc*//*Toggle swithc*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+/*Toggle swithc*//*Toggle swithc*/
+
+.toggleListView{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.id-div{
+    padding: 7px 0;
+
+}
+
+.id-information{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    line-height: 7px;
+}
+
+  
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .row {margin: 90px -5px 150px -5px}
+
+    .toggle{
+       display:none;
+     }
+}
+
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column,.card {
+        height:100px;
+    }
+
+    .place-holder-image{
+        height:70px;
+        float:right;
+    }
+
+    .row {margin: 0 -5px}
+
+    .footer{
+        margin-top: 70px;
+    }
+}
+
+
+/*by Jamie O'Beirne
+jamieobeirne123@gmail.com</p>
+11 February 2021</p>*/
+
+
+
+
+  
+
+
+
+
